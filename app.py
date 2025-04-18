@@ -8,7 +8,7 @@ start = int(input("Enter start sitemap number: "))
 end = int(input("Enter end sitemap number: "))
 base_url = "https://cinego.tv/sitemap-movie-{}.xml"
 
-edge_driver_path = r"D:\edge driver\edgedriver_win64\msedgedriver.exe"  # ⬅️ Change this to your extracted file path
+edge_driver_path = r"D:\edge driver\edgedriver_win64\msedgedriver.exe"  # ⬅️ Enter the edge driver Path
 
 options = Options()
 options.add_argument("--headless")
